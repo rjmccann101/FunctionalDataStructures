@@ -1,5 +1,9 @@
 ﻿namespace Library
 
-module Say =
-    let hello name =
-        printfn "Hello %s" name
+module List =
+    let Halve a =
+        match a with
+        | [] -> ([],[])
+        | hd::[] -> ([hd],[])
+        | _ ->  let l = a.Length / 2
+                (a.[..l], a.[l+1..])
