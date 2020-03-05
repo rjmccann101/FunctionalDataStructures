@@ -1,6 +1,7 @@
 ﻿namespace FunctionalDataStructures
 
 open System.Security.Cryptography
+open Library
 
 type Deque<'T> internal (front :'T List, back : 'T List) =
     member internal __.DQHeadList = front
@@ -55,5 +56,8 @@ type Deque<'T> internal (front :'T List, back : 'T List) =
 
 
 module Deque =
-    let Create<'T> = Deque([],[])
+    let Create<'T> = Deque<'T>([],[])
 
+    let FromList<'T> (a : 'T List) =
+        let (fnt, bck) = List.Halve a
+        Deque<'T>(fnt,bck)
