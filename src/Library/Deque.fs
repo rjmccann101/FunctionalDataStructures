@@ -53,11 +53,14 @@ type Deque<'T> internal (front :'T List, back : 'T List) =
             for e in this.DQHeadList |> List.rev -> e               
         }
 
-
+    member this.IsEmpty =
+        match this.DQTailList, this.DQHeadList with
+        | [],[] -> true
+        | _ -> false
 
 module Deque =
     let Create<'T> = Deque<'T>([],[])
 
     let FromList<'T> (a : 'T List) =
         let (fnt, bck) = List.Halve a
-        Deque<'T>(fnt,bck)
+        Deque<'T>(fnt,bck  |> List.rev)

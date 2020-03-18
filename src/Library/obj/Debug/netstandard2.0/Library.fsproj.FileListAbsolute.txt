@@ -1,8 +1,8 @@
 D:\Jackson\Projects\FunctionalDataStructures\src\Library\bin\Debug\netstandard2.0\Library.deps.json
 D:\Jackson\Projects\FunctionalDataStructures\src\Library\bin\Debug\netstandard2.0\Library.dll
 D:\Jackson\Projects\FunctionalDataStructures\src\Library\bin\Debug\netstandard2.0\Library.pdb
-D:\Jackson\Projects\FunctionalDataStructures\src\Library\obj\Debug\netstandard2.0\Library.fsprojAssemblyReference.cache
 D:\Jackson\Projects\FunctionalDataStructures\src\Library\obj\Debug\netstandard2.0\Library.AssemblyInfoInputs.cache
 D:\Jackson\Projects\FunctionalDataStructures\src\Library\obj\Debug\netstandard2.0\Library.AssemblyInfo.fs
 D:\Jackson\Projects\FunctionalDataStructures\src\Library\obj\Debug\netstandard2.0\Library.dll
 D:\Jackson\Projects\FunctionalDataStructures\src\Library\obj\Debug\netstandard2.0\Library.pdb
+D:\Jackson\Projects\FunctionalDataStructures\src\Library\obj\Debug\netstandard2.0\Library.fsprojAssemblyReference.cache

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "svqdS1aMu5aJvn2BNYvYMv5iX28e4nMagqkKmMWwuaWzovia4JqYfcnP9iFtA8lbzR8wrVjXq/iwNHtOY9VA9g==",
+  "success": true,
+  "projectFilePath": "D:\\Jackson\\Projects\\FunctionalDataStructures\\src\\Library\\Library.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rjmcc\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\rjmcc\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -109,3 +109,4 @@ D:\Jackson\Projects\FunctionalDataStructures\src\Library.Tests\bin\Debug\netcore
 D:\Jackson\Projects\FunctionalDataStructures\src\Library.Tests\obj\Debug\netcoreapp3.1\Library.Tests.fsproj.CopyComplete
 D:\Jackson\Projects\FunctionalDataStructures\src\Library.Tests\obj\Debug\netcoreapp3.1\Library.Tests.dll
 D:\Jackson\Projects\FunctionalDataStructures\src\Library.Tests\obj\Debug\netcoreapp3.1\Library.Tests.pdb
+D:\Jackson\Projects\FunctionalDataStructures\src\Library.Tests\obj\Debug\netcoreapp3.1\Library.Tests.genruntimeconfig.cache
