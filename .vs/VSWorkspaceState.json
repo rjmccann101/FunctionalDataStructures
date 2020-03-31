@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\Library",
+    "\\src\\Library.Tests"
   ],
+  "SelectedNode": "\\FunctionalDataStructures.sln",
   "PreviewInSolutionExplorer": false
 }
