@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QFhSjZ1wUzpYKZgwARD4Zo4HvgMYJo9C8juDv7dhkMbsN3FrMuk+wjNsaP59TXSXJXSgNDAK/5gbl8JfNlqfYw==",
+  "dgSpecHash": "TybZcP/jP33BZzzj+diKVVy/8VQS2YehQZf935q6AhBHM66Nqj2AVHDCxV1ORkM/fmy2UosDlJRhAKE1oZ7RZA==",
   "success": true,
   "projectFilePath": "D:\\Jackson\\Projects\\FunctionalDataStructures\\src\\Library.Tests\\Library.Tests.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rjmcc\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512",
-    "C:\\Users\\rjmcc\\.nuget\\packages\\fsunit\\3.8.0\\fsunit.3.8.0.nupkg.sha512",
+    "C:\\Users\\rjmcc\\.nuget\\packages\\fsharp.core\\4.7.1\\fsharp.core.4.7.1.nupkg.sha512",
+    "C:\\Users\\rjmcc\\.nuget\\packages\\fsunit\\3.8.1\\fsunit.3.8.1.nupkg.sha512",
     "C:\\Users\\rjmcc\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\rjmcc\\.nuget\\packages\\microsoft.dotnet.internalabstractions\\1.0.0\\microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",

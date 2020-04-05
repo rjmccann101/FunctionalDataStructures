@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "Expecto/8.13.2": {
+      "Expecto/9.0.0": {
         "type": "package",
         "dependencies": {
           "FSharp.Core": "4.6.0",
@@ -15,11 +15,11 @@
           "lib/netstandard2.0/Expecto.dll": {}
         }
       },
-      "Expecto.FsCheck/8.13.2": {
+      "Expecto.FsCheck/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Expecto": "8.13.2",
-          "FsCheck": "2.14.1"
+          "Expecto": "9.0.0",
+          "FsCheck": "2.14.2"
         },
         "compile": {
           "lib/netstandard2.0/Expecto.FsCheck.dll": {}
@@ -31,7 +31,7 @@
       "Expecto.VisualStudio.TestAdapter/10.0.2": {
         "type": "package"
       },
-      "FsCheck/2.14.1": {
+      "FsCheck/2.14.2": {
         "type": "package",
         "dependencies": {
           "FSharp.Core": "4.2.3"
@@ -949,7 +949,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FSharp.Core": "4.7.0"
+          "FSharp.Core": "4.7.1"
         },
         "compile": {
           "bin/placeholder/Library.dll": {}
@@ -961,14 +961,15 @@
     }
   },
   "libraries": {
-    "Expecto/8.13.2": {
-      "sha512": "1+8FWYCtz4uKYi7LLne11AMkBb0BYoLc/edFtzbds5bR0G2eNPZBtjgu3BmIbOb9v3c/3Z0eA/YJoxlOsCB58w==",
+    "Expecto/9.0.0": {
+      "sha512": "8B9QvWJYcHu+DLrqgFAlc0bezuElU39wo/cfN/iapFsLbzP8w7Dlxc1qfxDJKE4MkbneR8u9xc8Xpk4+PmceKw==",
       "type": "package",
-      "path": "expecto/8.13.2",
+      "path": "expecto/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "expecto.8.13.2.nupkg.sha512",
+        "expecto-logo-small.png",
+        "expecto.9.0.0.nupkg.sha512",
         "expecto.nuspec",
         "lib/net461/Expecto.dll",
         "lib/net461/Expecto.pdb",
@@ -978,14 +979,15 @@
         "lib/netstandard2.0/Expecto.xml"
       ]
     },
-    "Expecto.FsCheck/8.13.2": {
-      "sha512": "LGrJX/oySwkdjFXvt7fA/vKSNp0qi0PnbHeebo162Qv9Fy5JZLy8HC1iAeRmDydy7P8Eo6wQq41l7sYbq2Em+g==",
+    "Expecto.FsCheck/9.0.0": {
+      "sha512": "XXeKwhLA8SwBgGkQSziIJLRXFbdipZruzvARwM1qC2+kGJsQITMddshM/UfxG06WCFm1JDZN7F8zufTRc81aIA==",
       "type": "package",
-      "path": "expecto.fscheck/8.13.2",
+      "path": "expecto.fscheck/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "expecto.fscheck.8.13.2.nupkg.sha512",
+        "expecto-logo-small.png",
+        "expecto.fscheck.9.0.0.nupkg.sha512",
         "expecto.fscheck.nuspec",
         "lib/net461/Expecto.FsCheck.dll",
         "lib/net461/Expecto.FsCheck.pdb",
@@ -1019,14 +1021,14 @@
         "tools/Newtonsoft.Json.dll"
       ]
     },
-    "FsCheck/2.14.1": {
-      "sha512": "eUfqLGnhev1T5UR7vLOkzo3dt1d44R8K6Yk3Pwc8ADfBWKNMpYgNr+F7ldhWhjUIQcFX4ZNrWdNxfQO/mV1qPg==",
+    "FsCheck/2.14.2": {
+      "sha512": "dWd9UFV4hPpUABHQGZBVaIBgpZBDAluXeij4Ofb2YKgpZhCZsJCmrJ1WB3S6IS3kr1FEB7DjdGaxp5AO2zIjIQ==",
       "type": "package",
-      "path": "fscheck/2.14.1",
+      "path": "fscheck/2.14.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fscheck.2.14.1.nupkg.sha512",
+        "fscheck.2.14.2.nupkg.sha512",
         "fscheck.nuspec",
         "lib/net452/FsCheck.dll",
         "lib/net452/FsCheck.xml",
@@ -3545,12 +3547,12 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "Expecto >= 8.13.2",
-      "Expecto.FsCheck >= 8.13.2",
+      "Expecto >= 9.0.0",
+      "Expecto.FsCheck >= 9.0.0",
       "Expecto.VisualStudio.TestAdapter >= 10.0.2",
-      "FSharp.Core >= 4.*",
+      "FSharp.Core >= 4.7.1",
       "Library >= 1.0.0",
-      "Microsoft.NET.Test.Sdk >= 16.*",
+      "Microsoft.NET.Test.Sdk >= 16.5.0",
       "YoloDev.Expecto.TestSdk >= 0.8.0"
     ]
   },
@@ -3594,12 +3596,12 @@
         "dependencies": {
           "Expecto": {
             "target": "Package",
-            "version": "[8.13.2, )",
+            "version": "[9.0.0, )",
             "generatePathProperty": true
           },
           "Expecto.FsCheck": {
             "target": "Package",
-            "version": "[8.13.2, )",
+            "version": "[9.0.0, )",
             "generatePathProperty": true
           },
           "Expecto.VisualStudio.TestAdapter": {
@@ -3609,12 +3611,12 @@
           },
           "FSharp.Core": {
             "target": "Package",
-            "version": "[4.*, )",
+            "version": "[4.7.1, )",
             "generatePathProperty": true
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
-            "version": "[16.*, )",
+            "version": "[16.5.0, )",
             "generatePathProperty": true
           },
           "YoloDev.Expecto.TestSdk": {
@@ -3656,8 +3658,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: YoloDev.Expecto.TestSdk 0.8.0 requires Expecto (>= 8.10.0 && < 9.0.0) but version Expecto 9.0.0 was resolved.",
+      "libraryId": "Expecto",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
 }

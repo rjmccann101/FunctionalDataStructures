@@ -40,12 +40,12 @@
           "dependencies": {
             "FSharp.Core": {
               "target": "Package",
-              "version": "[4.7.0, )",
+              "version": "[4.7.1, )",
               "generatePathProperty": true
             },
             "FsUnit": {
               "target": "Package",
-              "version": "[3.8.0, )",
+              "version": "[3.8.1, )",
               "generatePathProperty": true
             },
             "Microsoft.NET.Test.Sdk": {
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -117,7 +117,7 @@
           "dependencies": {
             "FSharp.Core": {
               "target": "Package",
-              "version": "[4.7.0, )",
+              "version": "[4.7.1, )",
               "generatePathProperty": true
             },
             "NETStandard.Library": {
@@ -138,7 +138,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

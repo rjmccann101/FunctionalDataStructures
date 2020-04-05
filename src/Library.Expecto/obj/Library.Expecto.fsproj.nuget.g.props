@@ -20,11 +20,11 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\rjmcc\.nuget\packages\fsharp.core\4.7.1</PkgFSharp_Core>
-    <PkgExpecto Condition=" '$(PkgExpecto)' == '' ">C:\Users\rjmcc\.nuget\packages\expecto\8.13.2</PkgExpecto>
+    <PkgExpecto Condition=" '$(PkgExpecto)' == '' ">C:\Users\rjmcc\.nuget\packages\expecto\9.0.0</PkgExpecto>
     <PkgYoloDev_Expecto_TestSdk Condition=" '$(PkgYoloDev_Expecto_TestSdk)' == '' ">C:\Users\rjmcc\.nuget\packages\yolodev.expecto.testsdk\0.8.0</PkgYoloDev_Expecto_TestSdk>
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
     <PkgMicrosoft_NET_Test_Sdk Condition=" '$(PkgMicrosoft_NET_Test_Sdk)' == '' ">C:\Users\rjmcc\.nuget\packages\microsoft.net.test.sdk\16.5.0</PkgMicrosoft_NET_Test_Sdk>
     <PkgExpecto_VisualStudio_TestAdapter Condition=" '$(PkgExpecto_VisualStudio_TestAdapter)' == '' ">C:\Users\rjmcc\.nuget\packages\expecto.visualstudio.testadapter\10.0.2</PkgExpecto_VisualStudio_TestAdapter>
-    <PkgExpecto_FsCheck Condition=" '$(PkgExpecto_FsCheck)' == '' ">C:\Users\rjmcc\.nuget\packages\expecto.fscheck\8.13.2</PkgExpecto_FsCheck>
+    <PkgExpecto_FsCheck Condition=" '$(PkgExpecto_FsCheck)' == '' ">C:\Users\rjmcc\.nuget\packages\expecto.fscheck\9.0.0</PkgExpecto_FsCheck>
   </PropertyGroup>
 </Project>

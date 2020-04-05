@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "FSharp.Core/4.7.0": {
+      "FSharp.Core/4.7.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/FSharp.Core.dll": {}
@@ -52,7 +52,7 @@
           }
         }
       },
-      "FsUnit/3.8.0": {
+      "FsUnit/3.8.1": {
         "type": "package",
         "dependencies": {
           "FSharp.Core": "4.2.3",
@@ -1294,7 +1294,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FSharp.Core": "4.7.0"
+          "FSharp.Core": "4.7.1"
         },
         "compile": {
           "bin/placeholder/Library.dll": {}
@@ -1306,14 +1306,15 @@
     }
   },
   "libraries": {
-    "FSharp.Core/4.7.0": {
-      "sha512": "6Bf2qzSCaJoP6tTfO+a5muUS7QbyJANqSut73zQvwQ9It5P0ITz9VKseeia2ofco30c55EQ0jA2wf2+A2gpGnw==",
+    "FSharp.Core/4.7.1": {
+      "sha512": "cQ4Dn5mFIWnJF8MmL49k2V6L8mtInDrXopskNFbpC4lsPdspTn7WzUQLylB4HU4tpi76ManXMVCAvtlYowTfHQ==",
       "type": "package",
-      "path": "fsharp.core/4.7.0",
+      "path": "fsharp.core/4.7.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fsharp.core.4.7.0.nupkg.sha512",
+        "Icon.png",
+        "fsharp.core.4.7.1.nupkg.sha512",
         "fsharp.core.nuspec",
         "lib/net45/FSharp.Core.dll",
         "lib/net45/FSharp.Core.optdata",
@@ -1351,15 +1352,15 @@
         "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll"
       ]
     },
-    "FsUnit/3.8.0": {
-      "sha512": "ktZJCUhHJWrtBCs8lmAV7KLrAlEOIOw0N6zxXCzeqXoRN5j7EkenRvgWtD2IECIImAoTq5lxFcKnu/enEBujlw==",
+    "FsUnit/3.8.1": {
+      "sha512": "S4NrdLyldCYo/TTC5AktwB2DG2CGqMsZYrF9N43XnjNc4jlRdnvUBmLOmRQmAjDcCGRkfM92Oh0PzDjVncVu8Q==",
       "type": "package",
-      "path": "fsunit/3.8.0",
+      "path": "fsunit/3.8.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fsunit.3.8.0.nupkg.sha512",
+        "fsunit.3.8.1.nupkg.sha512",
         "fsunit.nuspec",
         "lib/net46/FsUnit.NUnit.dll",
         "lib/net46/FsUnit.NUnit.pdb",
@@ -4737,8 +4738,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "FSharp.Core >= 4.7.0",
-      "FsUnit >= 3.8.0",
+      "FSharp.Core >= 4.7.1",
+      "FsUnit >= 3.8.1",
       "Library >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit3TestAdapter >= 3.16.1",
@@ -4785,12 +4786,12 @@
         "dependencies": {
           "FSharp.Core": {
             "target": "Package",
-            "version": "[4.7.0, )",
+            "version": "[4.7.1, )",
             "generatePathProperty": true
           },
           "FsUnit": {
             "target": "Package",
-            "version": "[3.8.0, )",
+            "version": "[3.8.1, )",
             "generatePathProperty": true
           },
           "Microsoft.NET.Test.Sdk": {
@@ -4826,7 +4827,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

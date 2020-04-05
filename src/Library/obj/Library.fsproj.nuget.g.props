@@ -14,6 +14,6 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgNETStandard_Library Condition=" '$(PkgNETStandard_Library)' == '' ">C:\Users\rjmcc\.nuget\packages\netstandard.library\2.0.3</PkgNETStandard_Library>
-    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\rjmcc\.nuget\packages\fsharp.core\4.7.0</PkgFSharp_Core>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\rjmcc\.nuget\packages\fsharp.core\4.7.1</PkgFSharp_Core>
   </PropertyGroup>
 </Project>
