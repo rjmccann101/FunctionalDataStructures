@@ -5,9 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="LibraryScripts.fsx" />
     <Compile Include="Library.fs" />
     <Compile Include="Deque.fs" />
   </ItemGroup>
+
+  <ItemGroup />
 
   <ItemGroup>
     <PackageReference Update="FSharp.Core" Version="4.7.1" />
